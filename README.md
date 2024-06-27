@@ -9,25 +9,23 @@ Essentially, it creates a directory and navigates to it for you with one command
 
 1.  clone this repository somewhere on your device:
 
-```
+```sh
 git clone https://github.com/kristoferfannar/goto.git
 ```
 
 2.  Then, run these two commands in your terminal:
 
-### zsh
+#### zsh
 
 ```zsh
-
-echo "source $(pwd)/goto.sh" >>~/.zshrc
+echo "source $(pwd)/goto.sh" >> ~/.zshrc
 
 source ~/.zshrc
-
 ```
 
-### bash
+#### bash
 
-```
+```bash
 echo "source $(pwd)/goto.sh" >> ~/.bashrc
 
 source ~/.bashrc
