@@ -9,7 +9,7 @@ Essentially, it creates a directory and navigates to it for you with one command
 
 1.  clone this repository somewhere on your device:
 
-```sh
+```zsh
 git clone https://github.com/kristoferfannar/goto.git
 ```
 
